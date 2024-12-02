@@ -1,4 +1,4 @@
-package com.zufarexplainedit.hello;
+package com.abrowne79.hello;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,4 +16,3 @@ public class HelloController {
                 .body(message);
     }
 }
-
